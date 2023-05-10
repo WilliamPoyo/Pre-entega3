@@ -13,3 +13,30 @@ console.log("soy mayor a 18")
 console.log("soy menor de edad") 
 }
 
+
+let bebida = prompt("¿Que bebida queres?")
+switch(bebida){
+    case "fernet":
+    console.log(`pedido${bebida},
+    valor 2000`)
+    break
+    case "Cerveza":
+        console.log(`pedido${bebida},
+        valor 1000`)
+        break
+        case"Ron":
+        console.log(`pedido${bebida},
+        valor 2200`)
+        break
+        case "whisky":
+            console.log(`pedido${bebida},
+            valor 2200`)
+        break
+        case "vodka":
+        console.log(`pedido${bebida},
+        valor 2200`)
+        break
+        default:
+            console.log("Ninguna opcion anterior")
+            break
+        }
