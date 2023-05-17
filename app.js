@@ -3,19 +3,19 @@ function Saludos() {
 }
    Saludos()
 
-function nombre() {
-    
 
+   function nombre() {
+    
 let nombreAlumno = prompt("ingrese su nombre")
 alert ("Hola"+" "+nombreAlumno)
 }
 nombre()
 
-function años() {
+function ValidarEdad() {
     
 
-let ValidarEdad =  prompt("ingresa tu edad")
-if (ValidarEdad >=18){
+let Edad =  prompt("ingresa tu edad")
+if (Edad >=18){
 alert("soy mayor a 18") 
     
 }else{
