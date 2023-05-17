@@ -1,9 +1,16 @@
-console.log("Hola")
+function Saludos() {
+   alert ("Hola")
+}
+   Saludos()
+function nombre() {
+    
 
 let nombreAlumno = prompt("ingrese su nombre")
 alert ("Hola"+" "+nombreAlumno)
-let Año = Number(prompt("¿En que año estamos?"))
-
+}
+nombre()
+function años() {
+    
 
 let edad =  prompt("ingresa tu edad")
 if (edad >=18){
@@ -11,8 +18,10 @@ console.log("soy mayor a 18")
     
 }else{
 console.log("soy menor de edad") 
-}
-
+}}
+años()
+function Beber() {
+    
 
 let bebida = prompt("¿Que bebida queres?")
 switch(bebida){
@@ -40,3 +49,6 @@ switch(bebida){
             console.log("Ninguna opcion anterior")
             break
         }
+}
+Beber()
+alert("Vuelva pronto")
