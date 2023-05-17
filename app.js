@@ -21,7 +21,7 @@ alert("soy mayor a 18")
 }else{
 alert("soy menor de edad") 
 }}
-años()
+ValidarEdad()
 
 function Bebidas() {
     
@@ -53,5 +53,5 @@ switch(bebida){
             break
         }
 }
-Beber()
+Bebidas()
 alert("Vuelva pronto")
