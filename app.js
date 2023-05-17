@@ -1,7 +1,7 @@
 function Saludos() {
-   alert ("Hola")
+   alert ("Hola") 
 }
-   Saludos()
+   Saludos()  
 
 
    function nombre() {
@@ -10,18 +10,20 @@ let nombreAlumno = prompt("ingrese su nombre")
 alert ("Hola"+" "+nombreAlumno)
 }
 nombre()
+/n 
 
 function ValidarEdad() {
     
 
-let Edad =  prompt("ingresa tu edad")
-if (Edad >=18){
+let edad =  prompt("ingresa tu edad")
+if (edad >=18){
 alert("soy mayor a 18") 
     
 }else{
 alert("soy menor de edad") 
 }}
 ValidarEdad()
+/n
 
 function Bebidas() {
     
@@ -54,4 +56,6 @@ switch(bebida){
         }
 }
 Bebidas()
+/n
+
 alert("Vuelva pronto")
