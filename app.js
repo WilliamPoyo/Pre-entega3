@@ -2,6 +2,7 @@ function Saludos() {
    alert ("Hola")
 }
    Saludos()
+
 function nombre() {
     
 
@@ -9,6 +10,7 @@ let nombreAlumno = prompt("ingrese su nombre")
 alert ("Hola"+" "+nombreAlumno)
 }
 nombre()
+
 function años() {
     
 
@@ -20,6 +22,7 @@ alert("soy mayor a 18")
 alert("soy menor de edad") 
 }}
 años()
+
 function Bebidas() {
     
 
