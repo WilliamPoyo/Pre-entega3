@@ -10,7 +10,7 @@ let nombreAlumno = prompt("ingrese su nombre")
 alert ("Hola"+" "+nombreAlumno)
 }
 nombre()
-/n 
+
 
 function ValidarEdad() {
     
@@ -58,4 +58,34 @@ switch(bebida){
 Bebidas()
 /n
 
+function crearObjetoCuenta(nombre,apellido,saldo){
+this.nombreCuenta = nombre = prompt("Ingrese el nombre de la cuenta")
+this.apellidoCuenta= apellido = prompt("Ingrese el apellido")
+this.saldoCuenta= saldo = parseInt(prompt("Infrse el saldo de la cuenta"))
+this.mostrarCuenta = function(){
+    return `Nombre: ${this.nombreCuenta}, Apellido : ${this.apellidoCuenta}, Saldo : ${this.saldoCuenta}`
+}
+}
+
+const cuenta1 = new crearObjetoCuenta()
+console.log(cuenta1.mostrarCuenta())
+/n
+
+const carrito =[]
+
+carrito.push("Mi producto")
+carrito.push("Segundo producto")
+/n
+
+const Carrito = [
+    {nombre : "Producto A", precio: 1000},
+    {nombre : "Producto B", precio: 2000},
+    {nombre : "Producto c", precio: 2200}
+
+]
+let totalCompra = Carrito.reduce((acumm, prod) => { return acumm + prod.precio},0
+)
+
+
 alert("Vuelva pronto")
+    
